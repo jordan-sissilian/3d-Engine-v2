@@ -129,29 +129,101 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/build
 .PHONY : 3DEngine/fast
 
-Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.o: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o
-.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.o
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.o: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.o
 
 # target to build an object file
-Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o
-.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o
 
-Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.i: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.i
-.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.i
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.i: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.i
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.i
 
 # target to preprocess a source file
-Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.i
-.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.i
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.i
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.i
 
-Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.s: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.s
-.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.s
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.s: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.s
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.s
 
 # target to generate assembly for a file
-Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.s
-.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.s
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.s
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.s
+
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.o: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.o
+
+# target to build an object file
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o
+
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.i: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.i
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.i
+
+# target to preprocess a source file
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.i
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.i
+
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.s: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.s
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.s
+
+# target to generate assembly for a file
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.s
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.s
+
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.o: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.o
+
+# target to build an object file
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o
+
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.i: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.i
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.i
+
+# target to preprocess a source file
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.i
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.i
+
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.s: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.s
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.s
+
+# target to generate assembly for a file
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.s
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.s
+
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.o: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.o
+
+# target to build an object file
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o
+
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.i: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.i
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.i
+
+# target to preprocess a source file
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.i
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.i
+
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.s: Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.s
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.s
+
+# target to generate assembly for a file
+Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.s
+.PHONY : Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.s
 
 # Help Target
 help:
@@ -162,9 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 3DEngine"
-	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.o"
-	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.i"
-	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.s"
+	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.o"
+	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.i"
+	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.s"
+	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.o"
+	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.i"
+	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.s"
+	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.o"
+	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.i"
+	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.s"
+	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.o"
+	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.i"
+	@echo "... Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.s"
 .PHONY : help
 
 

@@ -81,12 +81,12 @@ clean: CMakeFiles/3DEngine.dir/clean
 CMakeFiles/3DEngine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jordan/Desktop/GitHub/3d-Engine-v2/build/CMakeFiles --progress-num=1,2 "Built target 3DEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jordan/Desktop/GitHub/3d-Engine-v2/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target 3DEngine"
 .PHONY : CMakeFiles/3DEngine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/3DEngine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jordan/Desktop/GitHub/3d-Engine-v2/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jordan/Desktop/GitHub/3d-Engine-v2/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/3DEngine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jordan/Desktop/GitHub/3d-Engine-v2/build/CMakeFiles 0
 .PHONY : CMakeFiles/3DEngine.dir/rule

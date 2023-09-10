@@ -69,28 +69,76 @@ include CMakeFiles/3DEngine.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/3DEngine.dir/flags.make
 
-CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o: CMakeFiles/3DEngine.dir/flags.make
-CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o: /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp
-CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o: CMakeFiles/3DEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jordan/Desktop/GitHub/3d-Engine-v2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o -MF CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o.d -o CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o -c /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o: CMakeFiles/3DEngine.dir/flags.make
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o: /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o: CMakeFiles/3DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jordan/Desktop/GitHub/3d-Engine-v2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o -MF CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o.d -o CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o -c /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp
 
-CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp > CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.i
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp > CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.i
 
-CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp -o CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.s
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp -o CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.s
+
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o: CMakeFiles/3DEngine.dir/flags.make
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o: /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o: CMakeFiles/3DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jordan/Desktop/GitHub/3d-Engine-v2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o -MF CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o.d -o CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o -c /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp
+
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp > CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.i
+
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp -o CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.s
+
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o: CMakeFiles/3DEngine.dir/flags.make
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o: /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o: CMakeFiles/3DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jordan/Desktop/GitHub/3d-Engine-v2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o -MF CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o.d -o CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o -c /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp
+
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp > CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.i
+
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp -o CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.s
+
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o: CMakeFiles/3DEngine.dir/flags.make
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o: /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o: CMakeFiles/3DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jordan/Desktop/GitHub/3d-Engine-v2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o -MF CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o.d -o CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o -c /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp
+
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp > CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.i
+
+CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp -o CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.s
 
 # Object files for target 3DEngine
 3DEngine_OBJECTS = \
-"CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o"
+"CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o" \
+"CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o" \
+"CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o" \
+"CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o"
 
 # External object files for target 3DEngine
 3DEngine_EXTERNAL_OBJECTS =
 
-/Users/jordan/Desktop/GitHub/3d-Engine-v2/bin/3DEngine/3DEngine: CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o
+/Users/jordan/Desktop/GitHub/3d-Engine-v2/bin/3DEngine/3DEngine: CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o
+/Users/jordan/Desktop/GitHub/3d-Engine-v2/bin/3DEngine/3DEngine: CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o
+/Users/jordan/Desktop/GitHub/3d-Engine-v2/bin/3DEngine/3DEngine: CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o
+/Users/jordan/Desktop/GitHub/3d-Engine-v2/bin/3DEngine/3DEngine: CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o
 /Users/jordan/Desktop/GitHub/3d-Engine-v2/bin/3DEngine/3DEngine: CMakeFiles/3DEngine.dir/build.make
 /Users/jordan/Desktop/GitHub/3d-Engine-v2/bin/3DEngine/3DEngine: /opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/QtOpenGL
 /Users/jordan/Desktop/GitHub/3d-Engine-v2/bin/3DEngine/3DEngine: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd
@@ -98,7 +146,7 @@ CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/sourc
 /Users/jordan/Desktop/GitHub/3d-Engine-v2/bin/3DEngine/3DEngine: /opt/homebrew/opt/qt@5/lib/QtGui.framework/QtGui
 /Users/jordan/Desktop/GitHub/3d-Engine-v2/bin/3DEngine/3DEngine: /opt/homebrew/opt/qt@5/lib/QtCore.framework/QtCore
 /Users/jordan/Desktop/GitHub/3d-Engine-v2/bin/3DEngine/3DEngine: CMakeFiles/3DEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jordan/Desktop/GitHub/3d-Engine-v2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /Users/jordan/Desktop/GitHub/3d-Engine-v2/bin/3DEngine/3DEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jordan/Desktop/GitHub/3d-Engine-v2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /Users/jordan/Desktop/GitHub/3d-Engine-v2/bin/3DEngine/3DEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/3DEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

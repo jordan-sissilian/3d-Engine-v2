@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp" "CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o" "gcc" "CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/main.cpp.o.d"
+  "/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp" "CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o" "gcc" "CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/main.cpp.o.d"
+  "/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp" "CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o" "gcc" "CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/OpenGL/widgetOpenGL.cpp.o.d"
+  "/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp" "CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o" "gcc" "CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/uiWidget.cpp.o.d"
+  "/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp" "CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o" "gcc" "CMakeFiles/3DEngine.dir/Users/jordan/Desktop/GitHub/3d-Engine-v2/3D_Engine/source/window.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
