@@ -1,5 +1,5 @@
 
-#include "../../include/Core/Window.hpp"
+#include "../Include/Window.hpp"
 
 Window::Window(uint32_t height, uint32_t width)
     : Window()
@@ -22,7 +22,7 @@ Window::~Window()
     glfwTerminate();
 }
 
-void Window::loadGLFW()
+void Window::loadGLFW() const
 {
     if (!glfwInit())
         throw std::runtime_error("Erreur : Glfw non chargé");
@@ -42,7 +42,7 @@ void Window::loadGLFW()
     glfwSetFramebufferSizeCallback(this->window, framebufferSizeCallback);
 }
 
-void Window::loadGlad()
+void Window::loadGlad() const
 {
     if (!gladLoadGLLoader(reinterpret_cast<GLADloadproc>(glfwGetProcAddress)))
         throw std::runtime_error("Erreur : Chargement de Glad");

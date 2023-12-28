@@ -1,9 +1,7 @@
 #pragma once
 
-#define GLFW_INCLUDE_NONE
-
-#include "../../../libs/glfw-3.3.8/include/GLFW/glfw3.h"
-#include "../../../libs/glad/include/glad/glad.h"
+#include "../../libs/glfw-3.3.8/include/GLFW/glfw3.h"
+#include "../../libs/glad/include/glad/glad.h"
 #include <iostream>
 #include <stdexcept>
 
@@ -18,11 +16,12 @@ enum class OpenGLVersion : int {
 
 class Window {
 private:
-    const char* name;
-    uint32_t height;
-    uint32_t width;
+    const char* name{nameGame};
+    uint32_t height{hauteurJeu};
+    uint32_t width{largeurJeu};
+
 public:
-    GLFWwindow* window;
+    mutable GLFWwindow* window;
 
 public:
     Window();
@@ -30,7 +29,7 @@ public:
     ~Window();
 
 private:
-    void loadGLFW();
-    void loadGlad();
+    void loadGLFW() const;
+    void loadGlad() const;
     static void framebufferSizeCallback(GLFWwindow* window, int width, int height);
 };
