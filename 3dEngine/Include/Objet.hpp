@@ -1,6 +1,11 @@
 #pragma once
 
+#include "./Shader.hpp"
 #include "./Transform.hpp"
+
+#include "../../libs/glm/glm.hpp"
+#include "../../libs/glm/gtc/matrix_transform.hpp"
+#include "../../libs/glm/gtc/type_ptr.hpp"
 
 #include <assimp/Importer.hpp>
 #include <assimp/scene.h>
@@ -10,47 +15,51 @@
 #include <vector>
 #include <string_view>
 
-struct Mesh {
-    std::vector<float> vertices;        // Coordonnées des sommets (par exemple, x, y, z, x, y, z, ...)
-    std::vector<float> normals;         // Normales des sommets (par exemple, nx, ny, nz, nx, ny, nz, ...)
-    std::vector<float> textureCoords;   // Coordonnées de texture des sommets (par exemple, u, v, u, v, ...)
-    std::vector<unsigned int> indices;  // Indices des faces (par exemple, 0, 1, 2, 2, 3, 0, ...)
+constexpr const glm::vec3 v3Empty = {0.0f, 0.0f, 0.0f};
+
+struct vertex {
+    float x;
+    float y;
+    float z;
+
+    float u;
+    float v;
 };
 
-struct Texture {
-    std::string_view filePath;
-    int width{0};                       // Largeur de la texture
-    int height{0};                      // Hauteur de la texture
-    unsigned int textureID{0};          // Identifiant de la texture OpenGL
-};
-
-struct Material {
-    glm::vec3 ambientColor;             // Couleur ambiante
-    glm::vec3 diffuseColor;             // Couleur diffuse
-    glm::vec3 specularColor;            // Couleur spéculaire
-    float shininess{0.0f};              // Exposant de brillance
+struct triangle {
+    vertex tri[3];
 };
 
 struct Model3D {
-    Mesh mesh;
-    Texture texture;
-    Material material;
+    std::vector<triangle> mesh;
 
-    Model3D() = default;
-    Model3D(const Mesh &mesh, const Texture &texture, const Material &material);
+    char *name;
+    Transform transform;
+
+    std::vector<triangle> allVertices;
+
+    uint vao;
+    uint vboVertices;
+    // GLuint ebo; // a faire
+
+    GLuint shaderProgramID;
+
+    Model3D(char *name, const aiMesh *Meshe, GLuint shaderProgramID);
+    void Draw(const glm::mat4 &mModel);
+    void SetupMesh();
 };
 
 class Object {
-private:
-    Model3D model;
-    Transform transform;
+public:
+    std::vector<Model3D *> models;
 
 public:
-    Object(const Model3D &model, const glm::vec3 &position, const glm::vec3 &rotation, const glm::vec3 &scale);
+    Transform transform;
+    Shader shaderProgram;
+
+public:
+    Object(const char *path = "", const glm::vec3 &position = v3Empty, const float &rotation = 0.f, const float &scale = 1.f);
     ~Object() = default;
 
-    void InitializeFromAssimpMesh(const aiMesh *assimpMesh, const aiMaterial *assimpMaterial);
-
-    void UpdateAnimation(float deltaTime);
     void Draw() const;
 };

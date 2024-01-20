@@ -29,7 +29,14 @@ public:
     ~Window();
 
 private:
-    void loadGLFW() const;
-    void loadGlad() const;
-    static void framebufferSizeCallback(GLFWwindow* window, int width, int height);
+    void initializeGLFW();
+    void initializeWindow();
+    void initializeGlad();
+    void cleanup();
+
+public:
+    void createWindow() const;
+    void configureWindow() const;
+    void swapBuffers() const;
+    void pollEvents() const;
 };

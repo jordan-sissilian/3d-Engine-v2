@@ -1,69 +1,62 @@
-
 #include "../Include/Transform.hpp"
+#include "../Include/Window.hpp"
 
-Transform::Transform(const glm::vec3 &Pos, const glm::vec3 &Rot, const glm::vec3 &Sca)
-    : position(Pos), rotation(Rot), scale(Sca) {
-    this->modelMatrix = glm::translate(this->modelMatrix, this->position);
-    this->modelMatrix = glm::rotate(this->modelMatrix, glm::radians(this->rotation.x), Axe_X);
-    this->modelMatrix = glm::rotate(this->modelMatrix, glm::radians(this->rotation.y), Axe_Y);
-    this->modelMatrix = glm::rotate(this->modelMatrix, glm::radians(this->rotation.z), Axe_Z);
-    this->modelMatrix = glm::scale(this->modelMatrix, this->scale);
+Transform::Transform(const glm::vec3 &Pos, const float &Rot, const float &Sca)
+    : pos(Pos), rot(Rot), sca(Sca) { }
+
+const glm::vec3 Transform::GetPosition() const
+{
+    return this->pos;
 }
 
-glm::vec3 Transform::GetPosition() const
+const float Transform::GetRotation() const
 {
-    return (this->position);
+    return this->rot;
 }
 
-glm::vec3 Transform::GetRotation() const
+const float Transform::GetScale() const
 {
-    return (this->rotation);
-}
-
-glm::vec3 Transform::GetScale() const
-{
-    return (this->scale);
+    return (this->sca);
 }
 
 void Transform::SetPosition(const glm::vec3 &newPos)
 {
-    this->position = newPos;
-    this->updateModelMatrix();
+    this->pos = newPos;
+    glm::mat4 modelMatrix{1.0f};
+    this->modelMatrix *= glm::translate(modelMatrix, this->pos);
 }
 
-void Transform::SetRotation(const glm::vec3 &newRot)
+void Transform::SetRotation(const float &newRot, const Axe &AxeDest)
 {
-    this->rotation = newRot;
-    this->updateModelMatrix();
+    this->rot += newRot;
+    glm::mat4 modelMatrix{1.0f};
+
+    const std::map<Axe, std::pair<float, glm::vec3>> axisData = {
+        {Axe::X, {this->rot, Axe_X}},
+        {Axe::Y, {this->rot, Axe_Y}},
+        {Axe::Z, {this->rot, Axe_Z}}
+    };
+
+    auto it = axisData.find(AxeDest);
+    if (it != axisData.end()) {
+        const auto &[AxeRotation, Axe] = it->second;
+        this->modelMatrix *= glm::rotate(modelMatrix, glm::radians(AxeRotation), Axe);
+    }
 }
 
-void Transform::SetScale(const glm::vec3 &newSca)
+void Transform::SetScale(const float &newSca)
 {
-    this->scale = newSca;
-    this->updateModelMatrix();
+    this->sca = newSca;
+    glm::mat4 modelMatrix{1.0f};
+    this->modelMatrix *= glm::scale(modelMatrix, glm::vec3(this->sca));
 }
 
 const glm::mat4& Transform::getModelMatrix() const
 {
-    return (this->modelMatrix);
+    return this->modelMatrix;
 }
 
-const glm::mat4& Transform::getViewMatrix() const
+void Transform::setModelMatrix(const glm::mat4 &model)
 {
-    return (this->viewMatrix);
-}
-
-const glm::mat4& Transform::getProjectionMatrix() const
-{
-    return (this->projectionMatrix);
-}
-
-void Transform::setViewMatrix(const glm::mat4 &view)
-{
-    this->viewMatrix = view;
-}
-
-void Transform::setProjectionMatrix(const glm::mat4 &projection)
-{
-    this->projectionMatrix = projection;
+    this->modelMatrix = model;
 }
